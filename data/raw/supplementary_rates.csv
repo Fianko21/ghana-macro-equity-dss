@@ -1,0 +1,12 @@
+year,variable,value,source,note
+1993,tbill_91_dec,34.78,SEC Ghana Annual Report 2001 (p.19 table),source column is printed one row early; alignment verified against GSS Dec-1995..Dec-1999 and SEC 2000 report
+1994,tbill_91_dec,31.85,SEC Ghana Annual Report 2001 (p.19 table),as above
+2002,policy_rate,25.5,Bank of Ghana Policy Rate Trends,MPR raised to 25.5% on 21 Nov 2002 (GSS series shows the change one month later)
+2024,policy_rate,27.0,Bank of Ghana Policy Rate Trends,
+2025,policy_rate,18.0,Bank of Ghana Policy Rate Trends,
+2024,tbill_91_dec,27.73,BoG Summary of Economic and Financial Data (Jul-2025 edition),
+2025,tbill_91_dec,11.08,BoG Summary of Economic and Financial Data (Jul-2026 edition),
+2024,tbill_91_avg,26.1733,BoG Summary of Economic and Financial Data (Jul-2024 and Jul-2025 editions),mean of 12 monthly rates
+2025,tbill_91_avg,15.3842,BoG Summary of Economic and Financial Data (Jul-2025 and Jul-2026 editions),mean of 12 monthly rates
+1993,tbill_91_avg,34.78,Researcher imputation in Stata (end-of-year rate from SEC Ghana Annual Report 2001),no 12-month average published; year-end value used as proxy so that the regression sample covers 1993-2025
+1994,tbill_91_avg,29.50,Researcher imputation in Stata (value as used in the analysis),no 12-month average published; source of this value to be stated by the researcher (SEC 2001 table implies 31.85 at end-1994)

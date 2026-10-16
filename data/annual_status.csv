@@ -1,0 +1,529 @@
+year,variable,value,status,source,note
+1993,gse_return,113.74,available,SEC Ghana Annual Report 2001 (p.19 table),year-end % change
+1993,gse_index,18.04,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1993,mc_gdp,2.045595180909584,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1993,listed_companies,15.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1993,turnover_ratio,3.35790335790336,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1993,inflation,24.95984247424968,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1993,policy_rate,,missing,,
+1993,tbill_91,34.78,available,Researcher imputation in Stata (end-of-year rate from SEC Ghana Annual Report 2001),no 12-month average published; year-end value used as proxy so that the regression sample covers 1993-2025
+1993,tbill_91_dec,34.78,available,SEC Ghana Annual Report 2001 (p.19 table),source column is printed one row early; alignment verified against GSS Dec-1995..Dec-1999 and SEC 2000 report
+1993,real_tbill,9.82,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1993,usd_ghs,0.0648711875896057,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1993,gdp_growth,4.850000553794118,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1993,reer,110.8321573781999,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1993,trade_gdp,56.66912011569949,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1993,gfcf_gdp,23.78554272875184,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1993,pli,43.11892338499576,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,gse_return,124.34,available,SEC Ghana Annual Report 2001 (p.19 table),also reported by GSE as +124%
+1994,gse_index,40.47,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1994,mc_gdp,34.874516657060525,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,listed_companies,17.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1994,turnover_ratio,3.63272612403917,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1994,inflation,24.87025543695763,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,policy_rate,,missing,,
+1994,tbill_91,29.5,available,Researcher imputation in Stata (value as used in the analysis),no 12-month average published; source of this value to be stated by the researcher (SEC 2001 table implies 31.85 at end-1994)
+1994,tbill_91_dec,31.85,available,SEC Ghana Annual Report 2001 (p.19 table),as above
+1994,real_tbill,4.63,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1994,usd_ghs,0.0955682388545159,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1994,gdp_growth,3.299999739477471,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,reer,89.7332566251905,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,trade_gdp,62.02115273775216,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,gfcf_gdp,22.57444764649376,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1994,pli,37.2910331471164,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,gse_return,6.33,available,SEC Ghana Annual Report 2001 (p.19 table),
+1995,gse_index,43.03,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1995,mc_gdp,25.807568172142886,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,listed_companies,19.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1995,turnover_ratio,1.12989270514895,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1995,inflation,59.46155369914462,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,policy_rate,45.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+1995,tbill_91,38.25,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+1995,tbill_91_dec,45.1,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+1995,real_tbill,-21.212,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1995,usd_ghs,0.119913872960145,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1995,gdp_growth,4.112418971628614,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,reer,103.9709899515058,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,trade_gdp,57.42309428899467,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,gfcf_gdp,21.130848717055613,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1995,pli,41.63984006260878,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,gse_return,13.82,available,SEC Ghana Annual Report 2001 (p.19 table),
+1996,gse_index,48.98,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1996,mc_gdp,23.92314980817907,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,listed_companies,21.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1996,turnover_ratio,0.973718640532018,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1996,inflation,46.56101967622823,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,policy_rate,45.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+1996,tbill_91,46.392,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+1996,tbill_91_dec,47.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+1996,real_tbill,-0.169,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1996,usd_ghs,0.163547167575201,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1996,gdp_growth,4.602461155646267,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,reer,112.6587539755052,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,trade_gdp,72.20494412939755,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,gfcf_gdp,20.298658576380006,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1996,pli,41.9258389152558,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,gse_return,41.85,available,SEC Ghana Annual Report 2001 (p.19 table),level implied by return (source table prints 1997/1998 levels in swapped rows)
+1997,gse_index,69.48,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1997,mc_gdp,16.390616137854806,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,listed_companies,21.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1997,turnover_ratio,3.65720862290293,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1997,inflation,27.88520864075274,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,policy_rate,45.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+1997,tbill_91,47.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+1997,tbill_91_dec,47.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+1997,real_tbill,20.015,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1997,usd_ghs,0.204796277898216,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1997,gdp_growth,4.196357440195712,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,reer,120.2438236688035,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,trade_gdp,85.4018379695892,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,gfcf_gdp,23.835503847407427,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1997,pli,39.31817764761094,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,gse_return,69.69,available,SEC Ghana Annual Report 2001 (p.19 table),level implied by return (source table prints 1997/1998 levels in swapped rows)
+1998,gse_index,117.9,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1998,mc_gdp,18.537786404949124,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,listed_companies,21.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1998,turnover_ratio,4.12902574602923,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1998,inflation,14.62416666666746,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,policy_rate,37.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+1998,tbill_91,37.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+1998,tbill_91_dec,28.7,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+1998,real_tbill,23.276,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1998,usd_ghs,0.231165900582341,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1998,gdp_growth,4.700390784279108,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,reer,128.4349508713267,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,trade_gdp,80.59954324699352,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,gfcf_gdp,22.36355226641998,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1998,pli,40.318368785554966,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,gse_return,-15.22,available,SEC Ghana Annual Reports 2000 and 2001,
+1999,gse_index,99.95,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+1999,mc_gdp,11.920016715419976,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,listed_companies,22.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+1999,turnover_ratio,2.16195652173913,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+1999,inflation,4.865397850775285,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,policy_rate,27.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+1999,tbill_91,28.092,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+1999,tbill_91_dec,34.2,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+1999,real_tbill,23.227,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+1999,usd_ghs,0.266642972407191,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+1999,gdp_growth,4.399996825452959,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,reer,117.8480181785149,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,trade_gdp,81.70510403405281,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,gfcf_gdp,20.4674438041186,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+1999,pli,39.28159347844009,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,gse_return,16.55,available,SEC Ghana Annual Reports 2000 and 2001,
+2000,gse_index,116.5,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2000,mc_gdp,10.034416720375656,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,listed_companies,22.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2000,turnover_ratio,1.392,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2000,inflation,40.24093312391401,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,policy_rate,27.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2000,tbill_91,39.067,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2000,tbill_91_dec,42.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2000,real_tbill,-1.174,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2000,usd_ghs,0.544919175868766,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2000,gdp_growth,3.7000000816440775,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,reer,86.01893596808333,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,trade_gdp,116.04843016296842,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,gfcf_gdp,23.098130927170608,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2000,pli,23.913844287493184,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,gse_return,11.42,available,SEC Ghana Annual Report 2002,
+2001,gse_index,129.8,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2001,mc_gdp,5.268235151967261,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,listed_companies,22.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2001,turnover_ratio,4.46428571428571,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2001,inflation,41.50949628780302,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,policy_rate,27.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2001,tbill_91,40.983,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2001,tbill_91_dec,30.1,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2001,real_tbill,-0.526,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2001,usd_ghs,0.716305157808996,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2001,gdp_growth,4.0000001280791935,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,reer,93.34780043040983,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,trade_gdp,110.04585416081134,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,gfcf_gdp,27.122921301683444,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2001,pli,23.986151421150765,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,gse_return,45.96,available,SEC Ghana Annual Report 2002,
+2002,gse_index,189.45,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2002,mc_gdp,5.676107199869019,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,listed_companies,23.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2002,turnover_ratio,2.85714285714286,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2002,inflation,9.360932395603127,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,policy_rate,25.5,available,Bank of Ghana Policy Rate Trends,MPR raised to 25.5% on 21 Nov 2002 (GSS series shows the change one month later)
+2002,tbill_91,25.133,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2002,tbill_91_dec,26.3,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2002,real_tbill,15.772,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2002,usd_ghs,0.792417084313167,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2002,gdp_growth,4.499999559003314,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,reer,88.56248674865932,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,trade_gdp,97.48924317465514,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,gfcf_gdp,18.77494576562564,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2002,pli,26.222364322735757,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,gse_return,154.67,available,SEC Ghana Annual Report 2004,
+2003,gse_index,482.48,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2003,mc_gdp,8.384949295395698,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,listed_companies,25.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2003,turnover_ratio,6.8734375,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2003,inflation,29.77297971603836,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,policy_rate,21.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2003,tbill_91,28.525,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2003,tbill_91_dec,19.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2003,real_tbill,-1.248,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2003,usd_ghs,0.866764326525345,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2003,gdp_growth,5.200000133101,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,reer,91.03149284307642,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,trade_gdp,97.28714571395317,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,gfcf_gdp,22.93692797663764,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2003,pli,30.257106167597986,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,gse_return,91.33,available,SEC Ghana Annual Reports 2004 and 2007,2004 report gives 91.32
+2004,gse_index,923.14,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2004,mc_gdp,5.4045424395255806,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,listed_companies,28.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2004,turnover_ratio,15.1833333333333,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2004,inflation,18.04273882325649,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,policy_rate,18.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2004,tbill_91,17.292,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2004,tbill_91_dec,17.1,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2004,real_tbill,-0.751,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2004,usd_ghs,0.899494854007063,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2004,gdp_growth,5.5999999907744495,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,reer,94.16774901145634,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,trade_gdp,99.67033434721225,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,gfcf_gdp,28.37750668405269,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2004,pli,32.466984108365914,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,gse_return,-29.85,available,SEC Ghana Annual Report 2006,
+2005,gse_index,647.58,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2005,mc_gdp,5.677287149601896,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,listed_companies,27.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2005,turnover_ratio,8.36065573770492,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2005,inflation,15.43899201559083,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,policy_rate,15.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2005,tbill_91,15.442,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2005,tbill_91_dec,11.8,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2005,real_tbill,0.003,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2005,usd_ghs,0.905209485833333,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2005,gdp_growth,5.900003818551042,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,reer,103.5633323811859,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,trade_gdp,98.17151411462788,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,gfcf_gdp,29.0021406363098,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2005,pli,35.96206767487983,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,gse_return,4.97,available,SEC Ghana Annual Report 2006,
+2006,gse_index,679.76,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2006,mc_gdp,3.638968790366071,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,listed_companies,29.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2006,turnover_ratio,6.78947368421053,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2006,inflation,11.67918393924918,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,policy_rate,12.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2006,tbill_91,10.217,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2006,tbill_91_dec,10.2,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2006,real_tbill,-1.462,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2006,usd_ghs,0.915106799166667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2006,gdp_growth,6.399912606180337,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,reer,110.0421763414481,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,trade_gdp,64.51905424391524,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,gfcf_gdp,22.465805737650008,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2006,pli,38.922121744639696,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,gse_return,31.84,available,SEC Ghana Annual Reports 2007 and 2008,reported level is not consistent with 2006 level x return; return used
+2007,gse_index,896.2,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2007,mc_gdp,9.671958749204828,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,listed_companies,29.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2007,turnover_ratio,6.05507872851676,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2007,inflation,10.7342665456292,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,policy_rate,13.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2007,tbill_91,9.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2007,tbill_91_dec,10.6,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2007,real_tbill,-0.834,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2007,usd_ghs,0.932619195,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2007,gdp_growth,4.346819104400794,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,reer,109.4024515448923,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,trade_gdp,65.35432228525316,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,gfcf_gdp,15.384544987774746,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2007,pli,43.17204425544215,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,gse_return,58.06,available,SEC Ghana Annual Report 2008,
+2008,gse_index,1416.53,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2008,mc_gdp,9.91785623871593,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,listed_companies,31.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2008,turnover_ratio,10.0830409438964,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2008,inflation,16.49463961341201,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,policy_rate,17.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2008,tbill_91,17.7,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2008,tbill_91_dec,24.7,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2008,real_tbill,1.205,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2008,usd_ghs,1.052275,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2008,gdp_growth,9.14979893831817,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,reer,104.3444035903102,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,trade_gdp,69.51422561114336,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,gfcf_gdp,16.49196394080335,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2008,pli,44.82613547694519,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,gse_return,-46.6,available,Bank of Ghana Annual Report 2010 (p.21),
+2009,gse_index,756.43,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2009,mc_gdp,9.3172332440342,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,listed_companies,31.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2009,turnover_ratio,2.13430462048108,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2009,inflation,19.24694822208571,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,policy_rate,18.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2009,tbill_91,25.358,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2009,tbill_91_dec,23.7,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2009,real_tbill,6.111,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2009,usd_ghs,1.40496666666667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2009,gdp_growth,4.844487051750761,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,reer,94.76936692620777,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,trade_gdp,71.59473852815235,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,gfcf_gdp,15.478829590755588,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2009,pli,38.5950726249482,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,gse_return,32.2,available,Bank of Ghana Annual Report 2010 (p.21),
+2010,gse_index,1000.0,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2010,mc_gdp,9.15498333072344,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,listed_companies,31.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2010,turnover_ratio,3.45355176426286,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2010,inflation,10.73338983549149,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,policy_rate,13.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2010,tbill_91,14.017,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2010,tbill_91_dec,12.3,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2010,real_tbill,3.284,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2010,usd_ghs,1.42998333333333,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2010,gdp_growth,7.899711940516212,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,reer,100.0000000000002,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,trade_gdp,75.37781579168235,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,gfcf_gdp,11.764092185708098,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2010,pli,43.68208205410386,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,gse_return,-3.1,available,SEC Ghana Annual Report 2011,GSE-CI base 31 Dec 2010 = 1000
+2011,gse_index,969.0,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2011,mc_gdp,7.876899979567281,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,listed_companies,29.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2011,turnover_ratio,8.2007158279302,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2011,inflation,8.7284593709302,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,policy_rate,12.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2011,tbill_91,10.725,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2011,tbill_91_dec,10.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2011,real_tbill,1.997,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2011,usd_ghs,1.520625,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2011,gdp_growth,14.047123580314905,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,reer,94.61932968952824,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,trade_gdp,86.29545385496954,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,gfcf_gdp,11.976940226693214,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2011,pli,45.84832981296198,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2012,gse_return,23.81,available,SEC Ghana Annual Reports 2012 and 2013,
+2012,gse_index,1199.72,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2012,mc_gdp,11.0,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2012,listed_companies,29.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2012,turnover_ratio,,missing,,
+2012,inflation,11.18634094410672,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2012,policy_rate,15.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2012,tbill_91,18.625,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2012,tbill_91_dec,22.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2012,real_tbill,7.439,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2012,usd_ghs,1.82486666666667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2012,gdp_growth,9.2927894063005,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2012,reer,88.22899367586433,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2012,trade_gdp,93.1680351286831,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2012,gfcf_gdp,16.10990938126672,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2012,pli,41.69518497585018,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2013,gse_return,78.81,available,SEC Ghana Annual Report 2013,
+2013,gse_index,2145.22,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2013,mc_gdp,7.877,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2013,listed_companies,29.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2013,turnover_ratio,,missing,,
+2013,inflation,11.66619230717286,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2013,policy_rate,16.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2013,tbill_91,21.983,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2013,tbill_91_dec,18.9,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2013,real_tbill,10.317,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2013,usd_ghs,1.98135,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2013,gdp_growth,7.31252501678145,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2013,reer,88.49322775209683,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2013,trade_gdp,60.7593219028775,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2013,gfcf_gdp,24.03899898155796,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2013,pli,44.00738947315202,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2014,gse_return,5.4,available,CFA Institute Research Foundation brief on Ghana (Table 3),
+2014,gse_index,2261.06,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2014,mc_gdp,9.317,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2014,listed_companies,,missing,,
+2014,turnover_ratio,,missing,,
+2014,inflation,15.48961603333184,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2014,policy_rate,21.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2014,tbill_91,23.925,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2014,tbill_91_dec,25.8,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2014,real_tbill,8.435,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2014,usd_ghs,2.896575,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2014,gdp_growth,2.8562401633088257,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2014,reer,69.47008190392027,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2014,trade_gdp,63.83656244307831,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2014,gfcf_gdp,26.422880521562064,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2014,pli,35.342790498649265,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2015,gse_return,-11.77,available,CFA Institute Research Foundation brief on Ghana (Table 3),
+2015,gse_index,1994.93,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2015,mc_gdp,8.744,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2015,listed_companies,,missing,,
+2015,turnover_ratio,,missing,,
+2015,inflation,17.14996950078776,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2015,policy_rate,26.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2015,tbill_91,25.108,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2015,tbill_91_dec,23.1,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2015,real_tbill,7.958,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2015,usd_ghs,3.71464166666667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2015,gdp_growth,2.120759338173343,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2015,reer,68.19677445338662,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2015,trade_gdp,76.52127092432424,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2015,gfcf_gdp,27.012625538317156,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2015,pli,33.185318156108515,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2016,gse_return,-15.33,available,CFA Institute Research Foundation brief on Ghana (Table 3),
+2016,gse_index,1689.11,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2016,mc_gdp,11.234,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2016,listed_companies,,missing,,
+2016,turnover_ratio,,missing,,
+2016,inflation,17.45463470708676,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2016,policy_rate,25.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2016,tbill_91,22.117,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2016,tbill_91_dec,16.8,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2016,real_tbill,4.662,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2016,usd_ghs,3.90981666666667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2016,gdp_growth,3.3734657496693643,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2016,reer,78.26552913248707,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2016,trade_gdp,67.87699944458652,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2016,gfcf_gdp,24.826168786483716,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2016,pli,38.16502978503077,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2017,gse_return,52.73,available,CFA Institute Research Foundation brief on Ghana (Table 3),
+2017,gse_index,2579.78,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2017,mc_gdp,5.677,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2017,listed_companies,,missing,,
+2017,turnover_ratio,,missing,,
+2017,inflation,12.37192155070485,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2017,policy_rate,20.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2017,tbill_91,14.108,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2017,tbill_91_dec,13.3,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2017,real_tbill,1.736,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2017,usd_ghs,4.35053333333333,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2017,gdp_growth,8.128894881009558,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2017,reer,77.70690329077055,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2017,trade_gdp,70.54836529041157,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2017,gfcf_gdp,18.88642524010767,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2017,pli,38.91513872228011,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2018,gse_return,-0.29,available,CFA Institute brief (Table 3); level from BoG Summary of Economic and Financial Data,chained 2011-2018 returns reproduce the BoG Dec-2018 level (2571.9 vs 2572.2)
+2018,gse_index,2572.3,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2018,mc_gdp,11.2344,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),not published in current WDI; value as supplied in RESEARCH DATA 3.xlsx
+2018,listed_companies,,missing,,
+2018,turnover_ratio,,missing,,
+2018,inflation,7.80876516610703,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2018,policy_rate,17.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2018,tbill_91,13.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2018,tbill_91_dec,14.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2018,real_tbill,5.691,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2018,usd_ghs,4.585325,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2018,gdp_growth,6.200077681272845,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2018,reer,76.64945320378105,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2018,trade_gdp,67.95851746449021,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2018,gfcf_gdp,21.19909374509816,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2018,pli,39.65181019486938,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,gse_return,-12.25,available,BoG Summary of Economic and Financial Data,computed from year-end levels
+2019,gse_index,2257.19,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2019,mc_gdp,14.576440013915626,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,listed_companies,33.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2019,turnover_ratio,0.0885,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2019,inflation,7.143640033308569,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,policy_rate,16.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2019,tbill_91,14.725,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2019,tbill_91_dec,14.7,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2019,real_tbill,7.581,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2019,usd_ghs,5.21736666666667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2019,gdp_growth,6.507774793915203,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,reer,73.46691451007572,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,trade_gdp,76.82480273215198,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,gfcf_gdp,18.03819368452633,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2019,pli,36.42881881980247,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,gse_return,-13.98,available,BoG Summary of Economic and Financial Data,computed from year-end levels
+2020,gse_index,1941.63,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2020,mc_gdp,13.209058662448816,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,listed_companies,31.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2020,turnover_ratio,0.3531,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2020,inflation,9.887289562699442,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,policy_rate,14.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2020,tbill_91,14.2,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2020,tbill_91_dec,14.1,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2020,real_tbill,4.313,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2020,usd_ghs,5.59570833333333,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2020,gdp_growth,0.5139416706281708,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,reer,74.61151141304497,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,trade_gdp,66.57549871624315,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,gfcf_gdp,17.660747107057766,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2020,pli,36.304704763651976,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,gse_return,43.66,available,BoG Summary of Economic and Financial Data,computed from year-end levels
+2021,gse_index,2789.35,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2021,mc_gdp,13.188863594319344,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,listed_companies,30.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2021,turnover_ratio,0.2582,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2021,inflation,9.971088675044395,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,policy_rate,14.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2021,tbill_91,12.833,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2021,tbill_91_dec,12.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2021,real_tbill,2.862,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2021,usd_ghs,5.8057,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2021,gdp_growth,5.076466435335419,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,reer,74.26777645146797,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,trade_gdp,62.707830912834616,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,gfcf_gdp,16.753650445063577,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2021,pli,37.00621301262046,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,gse_return,-12.38,available,BoG Summary of Economic and Financial Data,computed from year-end levels
+2022,gse_index,2444.03,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2022,mc_gdp,8.744246701539318,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,listed_companies,30.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2022,turnover_ratio,0.9627,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2022,inflation,31.25589510490163,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,policy_rate,27.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2022,tbill_91,23.625,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2022,tbill_91_dec,35.5,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2022,real_tbill,-7.631,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2022,usd_ghs,8.2724,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2022,gdp_growth,3.8048498095216416,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,reer,71.30966266664505,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,trade_gdp,70.11545579589071,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,gfcf_gdp,16.204583559544442,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2022,pli,30.935659701480507,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,gse_return,28.08,available,BoG Summary of Economic and Financial Data,computed from year-end levels
+2023,gse_index,3130.31,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2023,mc_gdp,7.709161951292391,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,listed_companies,30.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2023,turnover_ratio,0.4569,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2023,inflation,38.10696562965015,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,policy_rate,30.0,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year (prime rate before 2002)
+2023,tbill_91,26.767,available,GSS StatsBank interest_rate table (source: Bank of Ghana),average of 12 monthly rates
+2023,tbill_91_dec,29.4,available,GSS StatsBank interest_rate table (source: Bank of Ghana),end of year
+2023,real_tbill,-11.34,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2023,usd_ghs,11.0204083333333,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2023,gdp_growth,3.140090997637543,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,reer,71.27808331110192,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,trade_gdp,64.38786152816472,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,gfcf_gdp,9.867318423680432,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2023,pli,31.5480789785829,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,gse_return,56.17,available,BoG Summary of Economic and Financial Data,computed from year-end levels
+2024,gse_index,4888.61,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2024,mc_gdp,9.203515867915954,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,listed_companies,30.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2024,turnover_ratio,1.0366,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.TRNR,
+2024,inflation,22.84832811578422,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,policy_rate,27.0,available,Bank of Ghana Policy Rate Trends,
+2024,tbill_91,26.1733,available,BoG Summary of Economic and Financial Data (Jul-2024 and Jul-2025 editions),mean of 12 monthly rates
+2024,tbill_91_dec,27.73,available,BoG Summary of Economic and Financial Data (Jul-2025 edition),
+2024,real_tbill,3.325,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2024,usd_ghs,14.1819416666667,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2024,gdp_growth,5.590454695932664,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,reer,67.81836404508798,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,trade_gdp,69.78842273905916,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,gfcf_gdp,9.857972711543097,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2024,pli,29.81014044523565,available,World Bank WDI (RESEARCH DATA 3.xlsx extract),
+2025,gse_return,79.4,available,BoG Summary of Economic and Financial Data; GSE,computed from year-end levels
+2025,gse_index,8770.17,available,Chain-linked from gse_return,GSE All-Share (to 2010) linked to GSE Composite (from 2011); 31 Dec 2010 = 1000
+2025,mc_gdp,14.3985059438311,available,World Bank WDI API (retrieved Oct 2026),
+2025,listed_companies,31.0,available,World Bank WDI API (retrieved Oct 2026) CM.MKT.LDOM.NO,
+2025,turnover_ratio,,missing,,
+2025,inflation,14.2046755548989,available,World Bank WDI API (retrieved Oct 2026),
+2025,policy_rate,18.0,available,Bank of Ghana Policy Rate Trends,
+2025,tbill_91,15.3842,available,BoG Summary of Economic and Financial Data (Jul-2025 and Jul-2026 editions),mean of 12 monthly rates
+2025,tbill_91_dec,11.08,available,BoG Summary of Economic and Financial Data (Jul-2026 edition),
+2025,real_tbill,1.18,available,Derived,tbill_91 - inflation (ex-post Fisher approximation)
+2025,usd_ghs,12.556825,available,World Bank WDI API (retrieved Oct 2026) PA.NUS.FCRF,"annual average, new cedis"
+2025,gdp_growth,5.95441714756899,available,World Bank WDI API (retrieved Oct 2026),
+2025,reer,86.1819333597449,available,World Bank WDI API (retrieved Oct 2026),later WDI vintage than 1993-2024 values
+2025,trade_gdp,,missing,,
+2025,gfcf_gdp,,missing,,
+2025,pli,,missing,,
