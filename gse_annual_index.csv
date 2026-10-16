@@ -1,0 +1,34 @@
+year,gse_return,gse_level_reported,index_name,source,note
+1993,113.74,132.90,GSE All-Share Index,SEC Ghana Annual Report 2001 (p.19 table),year-end % change
+1994,124.34,298.10,GSE All-Share Index,SEC Ghana Annual Report 2001 (p.19 table),also reported by GSE as +124%
+1995,6.33,316.97,GSE All-Share Index,SEC Ghana Annual Report 2001 (p.19 table),
+1996,13.82,360.76,GSE All-Share Index,SEC Ghana Annual Report 2001 (p.19 table),
+1997,41.85,511.74,GSE All-Share Index,SEC Ghana Annual Report 2001 (p.19 table),level implied by return (source table prints 1997/1998 levels in swapped rows)
+1998,69.69,868.35,GSE All-Share Index,SEC Ghana Annual Report 2001 (p.19 table),level implied by return (source table prints 1997/1998 levels in swapped rows)
+1999,-15.22,736.16,GSE All-Share Index,SEC Ghana Annual Reports 2000 and 2001,
+2000,16.55,857.98,GSE All-Share Index,SEC Ghana Annual Reports 2000 and 2001,
+2001,11.42,955.95,GSE All-Share Index,SEC Ghana Annual Report 2002,
+2002,45.96,1395.31,GSE All-Share Index,SEC Ghana Annual Report 2002,
+2003,154.67,3553.42,GSE All-Share Index,SEC Ghana Annual Report 2004,
+2004,91.33,6798.46,GSE All-Share Index,SEC Ghana Annual Reports 2004 and 2007,2004 report gives 91.32
+2005,-29.85,4769.02,GSE All-Share Index,SEC Ghana Annual Report 2006,
+2006,4.97,5006.02,GSE All-Share Index,SEC Ghana Annual Report 2006,
+2007,31.84,6718.88,GSE All-Share Index,SEC Ghana Annual Reports 2007 and 2008,reported level is not consistent with 2006 level x return; return used
+2008,58.06,10431.64,GSE All-Share Index,SEC Ghana Annual Report 2008,
+2009,-46.6,,GSE All-Share Index,Bank of Ghana Annual Report 2010 (p.21),
+2010,32.2,,GSE All-Share Index,Bank of Ghana Annual Report 2010 (p.21),
+2011,-3.1,969.03,GSE Composite Index,SEC Ghana Annual Report 2011,GSE-CI base 31 Dec 2010 = 1000
+2012,23.81,,GSE Composite Index,SEC Ghana Annual Reports 2012 and 2013,
+2013,78.81,2145.20,GSE Composite Index,SEC Ghana Annual Report 2013,
+2014,5.40,,GSE Composite Index,CFA Institute Research Foundation brief on Ghana (Table 3),
+2015,-11.77,,GSE Composite Index,CFA Institute Research Foundation brief on Ghana (Table 3),
+2016,-15.33,,GSE Composite Index,CFA Institute Research Foundation brief on Ghana (Table 3),
+2017,52.73,,GSE Composite Index,CFA Institute Research Foundation brief on Ghana (Table 3),
+2018,-0.29,2572.2,GSE Composite Index,CFA Institute brief (Table 3); level from BoG Summary of Economic and Financial Data,chained 2011-2018 returns reproduce the BoG Dec-2018 level (2571.9 vs 2572.2)
+2019,,2257.2,GSE Composite Index,BoG Summary of Economic and Financial Data,return computed from year-end levels
+2020,,1941.6,GSE Composite Index,BoG Summary of Economic and Financial Data,return computed from year-end levels
+2021,,2789.3,GSE Composite Index,BoG Summary of Economic and Financial Data,return computed from year-end levels
+2022,,2443.9,GSE Composite Index,BoG Summary of Economic and Financial Data,return computed from year-end levels
+2023,,3130.2,GSE Composite Index,BoG Summary of Economic and Financial Data,return computed from year-end levels
+2024,,4888.5,GSE Composite Index,BoG Summary of Economic and Financial Data,return computed from year-end levels
+2025,,8770.2,GSE Composite Index,BoG Summary of Economic and Financial Data; GSE,GSE reports 8770.25 (+79.40%)
